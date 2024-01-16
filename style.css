@@ -280,12 +280,25 @@
     font-size: 20px;
     font-weight: 800;
 }
+.dicount-info{
+    position: relative;
+    margin-top: -160px;
+    margin-right: 220px;
+    transform: rotate(-30deg);
+    border-radius: 10.569px;
+    background: #FF5400;    
+    width: 214.023px;
+height: 79.268px;
+color: #FFF;
+text-align: center;
+padding-top: 1rem;
+}
 /* footer  */
 footer {
     background: rgba(19, 19, 24, 0.05);
     padding: 100px 50px;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .contact-section {
@@ -335,6 +348,9 @@ footer hr {
         background-size: cover;
         padding: 1rem;
         margin: 1rem;
+    }
+    .dicount-info{
+        margin-right: 30px;
     }
     .form-container,
     .popular-tours-container,
