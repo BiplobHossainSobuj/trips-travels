@@ -20,6 +20,12 @@
     font-weight: 800;
     margin-bottom: 1rem;
 }
+.secondary-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
 .text-secondary{
     color: #5A5A5D;
     font-size: 1rem;
@@ -202,7 +208,38 @@
     text-align: center;
 }
 
-
+/* why chose us section */
+.choice-container{
+    width: 75%;;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.card{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+}
+.card img{
+    height: 4rem;
+    width: 4rem;
+}
+.bg-hotel{
+    background: rgba(251, 181, 99, 0.05);
+}
+.bg-map{
+    background: rgba(41, 206, 246, 0.05);
+}
+.price-card-container{
+    display: flex;
+    justify-content: center;
+}
+.bg-price{
+    background: rgba(233, 68, 68, 0.05);
+}
 
 
 
@@ -225,7 +262,7 @@
         margin: 1rem;
     }
     .form-container,
-    .popular-tours-container
+    .popular-tours-container,.cards-container
     {
         flex-direction: column;
         
@@ -239,7 +276,7 @@
     .popular-tours-container{
         width: 90%;
     }
-    .destination-container{
+    .destination-container,.choice-container{
         width: 90%;
         margin: 0%;
         padding: 0% 5%;
