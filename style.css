@@ -14,6 +14,26 @@
     font-size: 1.6rem;
     font-weight: 800;
 }
+.primary-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.text-secondary{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 1rem 0rem;
+}
+.btn-colorful{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 0.8rem 1.2rem;
+    color: #FFF;
+    font-size: 1.2rem;
+}
 /* header styles  */
 .header{
     margin-top: 3rem;
@@ -36,16 +56,16 @@
     list-style: none;
     align-items: center;
 }
-ul li{
+.header ul li{
     padding-left: 3rem;
     color: #424247;
     font-size: 1rem;
     font-weight: 700;
 }
-ul :nth-child(1){
+.header ul :nth-child(1){
     color: #FF5400;
 }
-ul i{
+.header ul i{
     visibility: hidden;
 }
 /* explore section styles  */
@@ -106,6 +126,21 @@ ul i{
 #btn-find-now button{
     color: #FFF;
 }
+/* popular tours section style */
+.popular-tours-container{
+    display: flex;
+    width: 75%;
+    gap: 3rem;
+}
+.popular-tours-container div{
+    width: 100%;
+}
+.popular-tours-container ul{
+    margin-left: 2rem;
+}
+.popular-tours-container img{
+    width: 100%;
+}
 
 
 
@@ -115,19 +150,20 @@ ul i{
         margin-top: 1rem;
     }
     
-    ul li{
+    .header ul li{
         display: none;
     }
-    ul i{
+    .header ul i{
         visibility: visible;
         padding-left: 50px;
     }
     .explore-travel-container{
         background-size: cover;
-        padding: 2rem;
+        padding: 1rem;
         margin: 1rem;
     }
-    .form-container{
+    .form-container,
+    .popular-tours-container{
         flex-direction: column;
         
     }
@@ -137,6 +173,10 @@ ul i{
     .form-container input,button{
         width: 13rem;
     }
+    .popular-tours-container{
+        width: 90%;
+    }
+
 
     
 }
